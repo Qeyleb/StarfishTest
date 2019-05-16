@@ -1,0 +1,42 @@
+# based on https://github.com/alexkaratarakis/gitattributes
+# particularly Common.gitattributes
+
+# Common settings that generally should always be used with your language specific settings
+
+# Auto detect text files and perform LF normalization
+# https://www.davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+*          text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+# This project is designed for Windows, therefore let's use CRLF
+
+# Text
+*.cfg      text eol=crlf
+*.cmd      text eol=crlf
+*.inf      text eol=crlf
+*.ini      text eol=crlf
+*.ps1      text eol=crlf
+*.psm1     text eol=crlf
+*.psd1     text eol=crlf
+*.ps1xml   text eol=crlf
+*.pssc     text eol=crlf
+*.txt      text eol=crlf
+*.vbs      text eol=crlf
+*.xml      text eol=crlf
+*.wsf      text eol=crlf
+
+# Graphics
+*.bmp      binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+
+#
+# Exclude files from exporting
+#
+
+.gitattributes export-ignore
+.gitignore     export-ignore

@@ -1,6 +1,6 @@
 :: Caleb's EnableCustomizations.cmd
 :: Slackbash@gmail.com  for any questions or suggestions.
-:: Version 0.6 last updated 2019/03/14
+:: Version 0.6 last updated 2019-03-14
 
 :: based on https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-a-script-to-push-button-reset-features
 :: and https://forums.mydigitallife.net/threads/repo-how-to-chat-audit-sysprep-generalize-setupcomplete-firstlogon-silent-install.73131/
@@ -135,5 +135,3 @@ rem PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -Argumen
 
 echo Finished %1 at %date% %time% >> %logfile%
 :end
-
-hehe you been hacked by the ZOGLORD hehehe 

@@ -1,6 +1,6 @@
 ' Caleb's all-in-one let's tweak Windows how we want it script.
 ' Slackbash@gmail.com  for any questions or suggestions.
-' Version 0.14 last updated 2019/03/26
+' Version 0.14 last updated 2019-03-26
 
 ' credit to https://www.wincert.net/forum/index.php?/topic/13741-2018-windows-8-mega-tweaks/
 '    and many other stackoverflow, reddit, msfn, tenforums, thewindowsclub, and wincert articles and posts.
