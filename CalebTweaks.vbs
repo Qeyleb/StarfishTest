@@ -294,6 +294,7 @@ For Each strSubkey In arrSubkeys
 		'Prevent Start Menu searches from suggesting things from the Store and the web
 		wshShell.RegWrite sDefaultPath & RegPath & "BingSearchEnabled", 0, "REG_DWORD"
 		wshShell.RegWrite sDefaultPath & RegPath & "CortanaConsent", 0, "REG_DWORD"
+		'Turn off "Improve search results for on-device content using my device search history"
 		wshShell.RegWrite sDefaultPath & RegPath & "DeviceHistoryEnabled", 0, "REG_DWORD"
 
 		'Turn off Cortana listening on lock screen
